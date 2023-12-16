@@ -46,7 +46,7 @@
 		</script>
 	</head>
 
-	<body class="landing is-preload" style="overflow: hidden">
+	<body class="landing is-preload">
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
@@ -59,7 +59,7 @@
 						<div class="inner">
 							<h1><span id="words"></span></h1>
 							<h2>Appreciation</h2>
-							<p>Who or what do you appreciate?<br />
+							<p>Who or what do you appreciate?<br /></p>
 								<!-- form for submission -->
 								<!-- prevent form submission when enter is pressed -->
 								<form id="my-form"
@@ -67,11 +67,13 @@
 									action="https://script.google.com/macros/s/AKfycbwc3GmIFaghvY-SMglgw3Eaa1N0dLCe0qOuuiA_ab9OjevGnA-e0I9TMYoKbr5442AVxg/exec"
 									  onkeydown="return event.key != 'Enter';"
 								>
-									<input id="gratitude" name="Messages from above" type="text" required><br><br>
+									<input id="gratitude" name="Messages from above" type="text" required>
+									<p><br/><br/></p>
 								<ul class="actions special">
 										<li>
 											<input id="expression" type="submit" name="Messages from above" class="button primary scrolly" value="Express Gratitude">
-											<span id="words2"></span>
+											<p><br/><br/></p>
+											<h1 id="words2"></h1>
 										</li>
 								</ul>
 								</form>
